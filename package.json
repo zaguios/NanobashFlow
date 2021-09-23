@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@onflow/fcl": "^0.0.76",
+    "@onflow/sdk": "0.0.54",
+    "@onflow/types": "^0.0.5",
+    "dotenv": "^10.0.0",
+    "elliptic": "^6.5.4",
+    "jest": "^27.0.6",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "sha3": "^2.1.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon —exec babel-node temp.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12"
+  }
+}
